@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "GingerBees2",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

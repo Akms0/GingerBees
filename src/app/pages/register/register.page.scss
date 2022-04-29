@@ -1,0 +1,46 @@
+ion-toolbar{
+  --ion-background-color: #E38060;
+}
+
+ion-content{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    --ion-orange: #E38060;
+    .buttons{
+        .button-signup{
+          font-weight: 500;
+          font-size: 18px;
+          font-family: Arial, Helvetica, sans-serif;
+          --color: #ffffff;
+        }
+    
+        ion-button{
+          --background: #E38060;
+          color: white;
+          font-weight: 900;
+          margin-top: 5%;
+        }
+    }
+
+
+    --ion-background-color: #FFF4AA; // Replace this with color of your choice
+    --ion-background-color-rgb: 255, 244, 170;
+    .textColor{
+        color:#13233D;
+      }
+    
+      .roundedInput {
+        font-size: 12px;
+        --placeholder-font-style: sans-serif;
+        --border-color: var(--ion-color-medium-shade);
+        --border-radius: 15px;
+        --highlight-height: 0;
+        --background: #FFFFFF;
+        margin-bottom: 5%;
+      }
+    
+}
+

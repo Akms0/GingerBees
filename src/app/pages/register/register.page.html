@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md = "6" offset-md = "3">
+        <div class = "ion-text-center">
+          <h1>REGISTRE-SE</h1>
+        </div>
+
+
+        <div class = "ion-padding-top">
+        <ion-item class = "roundedInput">
+          <ion-label position = "floating" class = "textColor">Usuário</ion-label>
+          <ion-input type = "text" [(ngModel)]="user.name"></ion-input>
+        </ion-item>
+
+        <ion-item class = "roundedInput">
+          <ion-label position = "floating" class = "textColor">Email</ion-label>
+         <ion-input type = "text" [(ngModel)]="user.email"></ion-input>
+        </ion-item>
+
+        <ion-item class = "roundedInput">
+          <ion-label position = "floating" class = "textColor">Senha</ion-label>
+          <ion-input type = "password" ></ion-input>
+        </ion-item>
+
+        <ion-item class = "roundedInput">
+          <ion-label position = "floating" class = "textColor">Confirmar senha</ion-label>
+          <ion-input type = "password" [(ngModel)]="user.password"></ion-input>
+        </ion-item>
+      </div>
+        <div class ="buttons ion-text-center">
+        <ion-button class = "button-signup" (click) = "User()">
+          Registro
+        </ion-button>
+        </div>
+        <div class = "ion-padding-top ion-text-center">
+          <a href = "login">Já tem uma conta?</a>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+
+  
+ </ion-content>
